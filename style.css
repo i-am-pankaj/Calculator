@@ -1,0 +1,43 @@
+body{
+    background: #e3f9ff;
+}
+
+.calc{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.output{
+    border: 0;
+    width: 238px;
+    height: 50px;
+    background: transparent;
+    color: #fff;
+    margin: 5px;
+    align-items: end;
+    justify-content: space-between;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.previous-operand{
+    font-size: 15px;
+}
+
+.current-operand{
+    font-size: 25px;
+}
+
+button{
+    border-radius: 10px;
+    border: 0;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: transparent;
+    color: #fff;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1) , 5px 5px 15px rgba(0,0,0,0.2);
+    margin: 5px;
+}
+
